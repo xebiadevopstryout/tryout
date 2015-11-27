@@ -17,6 +17,6 @@ public class TestTryout {
 
     @org.junit.Test
     public void testReturnTrue() throws Exception {
-        assertEquals(instance.returnTrue(), false);
+        assertEquals(instance.returnTrue(), true);
     }
 }
